@@ -1,6 +1,6 @@
 function alterarStatus(id){
     let gameId = document.getElementById(`game-${id}`)
-    let image = gameId.querySelector('.dashboard__item__img'); /* o '.class' recupera um elemento na classe HTML */
+    let image = gameId.querySelector('.dashboard__item__img'); /* o '.class' recupera um elemento na classe HTML. */
     let button = gameId.querySelector('.dashboard__item__button');
 
     if(button.classList.contains('dashboard__item__button--return')){
